@@ -1,0 +1,19 @@
+{
+  "name": "socket-chat-example",
+  "version": "0.0.1",
+  "description": "my first socket.io app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@SoarLin.github.com:SoarLin/node_sample.git"
+  },
+  "author": "Soar Lin",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.10.2"
+  },
+  "devDependencies": {}
+}
