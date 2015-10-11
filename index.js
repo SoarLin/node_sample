@@ -22,6 +22,12 @@ io.on('connection', function(socket){
 
   socket.on('disconnect', function(){
     console.log('user disconnected');
+    socket.broadcast.emit('logout');
+  });
+
+  socket.on('logout', function(){
+    console.log('logout event');
+    io.emit('logout');
   });
 });
 

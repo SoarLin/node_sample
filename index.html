@@ -37,6 +37,10 @@
     socket.on('chat message', function(msg){
       $('#messages').append($('<li>').text(msg));
     });
+
+    socket.on('logout', function(){
+      $('body').append('<p>Hi, some one go away</p>');
+    });
   </script>
 </body>
 </html>
